@@ -1,0 +1,23 @@
+html {
+    box-shadow: 0 0 5px gray;
+    padding: 1%;
+    margin: 1%;
+    background-color: lightgoldenrodyellow;
+    flex: auto;
+}
+
+.header > :Link {
+    margin: 5px;
+    text-decoration: none;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+h1 {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}

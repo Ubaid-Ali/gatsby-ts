@@ -1,11 +1,15 @@
 import React from "react";
-import { Link } from "gatsby";
+import Layout from '../components/Layout';
 
+
+// Index.tsx
 export default () => {
   return (
     <div>
-      <h1> index file</h1>
-      <Link to="/blog1">Blog1</Link>
+      <Layout>
+        <h1>Home Page</h1>
+        <p>This is just index file.</p>
+      </Layout>
     </div>
   );
 };

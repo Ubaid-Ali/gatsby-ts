@@ -1,13 +1,14 @@
 import React from "react";
-import { Link } from "gatsby";
+import Layout from '../components/Layout';
+
 
 const Blog1 = () => {
   return (
     <div>
-      <h1>1st Blog</h1>
-      <Link to="/">Home</Link>
-      <p>Hello guys this is my first blog</p>
-      <p>Hello guys this is my first blog</p>
+      <Layout>
+        <h1>1st Blog</h1>
+        <p>This is just blog.</p>
+      </Layout>
     </div>
   );
 };
