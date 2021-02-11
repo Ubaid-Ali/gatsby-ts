@@ -1,0 +1,13 @@
+/* https://www.gatsbyjs.com/plugins/gatsby-transformer-typescript-css-modules/ */
+/* Import styles normally */
+/* import * as styles from "./pageName.module.css"; */
+/* and typings-for-css-modules-loader will read the CSS file and generates a .d.ts file alongside your css. */
+/* First, install the plugin… */
+/* npm i gatsby-transformer-typescript-css-modules --save */
+/* Then, add the plugin to your gatsby-config.js… */
+/* "gatsby-transformer-typescript-css-modules" */
+
+.myComponent {
+    background-color: blueviolet;
+    color: white;
+}

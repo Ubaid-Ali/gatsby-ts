@@ -3,15 +3,15 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 interface LayoutProps {
-    children: ReactNode;
+  children: ReactNode;
 }
 
 export default ({ children }: LayoutProps) => {
-    return (
-        <div>
-            <Header />
-            {children}
-            <Footer />
-        </div>
-    );
+  return (
+    <div>
+      <Header />
+      {children}
+      <Footer />
+    </div>
+  );
 };

@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 // Footer
 export default () => {
-    return (
-        <div>
-            <h3>Footer Component</h3>
-        </div>
-    )
-}
+  return (
+    <div className="footer">
+      <h3>Footer Component</h3>
+    </div>
+  );
+};

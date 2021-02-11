@@ -3,21 +3,11 @@ html {
     padding: 1%;
     margin: 1%;
     background-color: lightgoldenrodyellow;
-    flex: auto;
+    display: flex;
 }
 
-.header > :Link {
-    margin: 5px;
-    text-decoration: none;
-    font-size: large;
-    text-transform: uppercase;
-}
-
-h1 {
-    background-color: lightgreen;
-    text-align: center;
-}
-
-.footer {
-    text-align: center;
+.header {
+    border: 1px solid black;
+    background-color: brown;
+    flex: 1;
 }
