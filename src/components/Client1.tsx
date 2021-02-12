@@ -1,10 +1,10 @@
 import React from "react";
 
 interface propsType {
-    path?: string;
+  path?: string;
 }
 
-export default ({path}: propsType) => {
+export default ({ path }: propsType) => {
   return (
     <div>
       Client 1 Component <br /> current page is {path}
